@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 import pickle
 import pandas as pd
-df=pd.read_csv("C:\\Users\\nandha kumar\\AppData\\Local\\Programs\\Python\\Python39\\model\\int.csv",encoding="ISO-8859-1")
+df=pd.read_csv("int.csv",encoding="ISO-8859-1")
 
 
 
